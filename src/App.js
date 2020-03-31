@@ -90,6 +90,7 @@ export default class IndecisionApp extends React.Component {
 
   // delete individual option from prop options array
   handleDeleteOneOption = (optionToRemove) => {
+    console.log(optionToRemove);
       this.setState((prevState) => ({
           // filter apply the (in-line function) argument to each element in the array and return a new array
           // if the in-line function returns true, that element is included in the return array
